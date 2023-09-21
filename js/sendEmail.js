@@ -18,5 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Open the user's default email client with the pre-filled email
         window.location.href = mailtoLink;
+
+         // Reload the page after sending the email
+         setTimeout(function() {
+            window.location.reload();
+        }, 1000); // Reload after 1 second (adjust the delay as needed)
     });
 });
