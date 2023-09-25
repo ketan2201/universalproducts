@@ -84,7 +84,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-	background-image:url("../images/U-removebg-preview.png");
+	background-image:url("../images/");
 	background-repeat: no-repeat;
 	width: 200px;
 	height: 60px;
@@ -93,7 +93,7 @@ body {
 
 @media screen and (max-width: 991px) {
 .navbar-default .navbar-brand {
-	background-image:url("../images/small-logo.png");
+	background-image:url("../images/");
 	background-repeat: no-repeat;
 	width: 160px;
 	height: 60px;
